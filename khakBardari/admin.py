@@ -11,4 +11,4 @@ class RanandeAdmin(admin.ModelAdmin):
 
 @admin.register(ServiceKhak)
 class ServiceKhakAdmin(admin.ModelAdmin):
-    list_display = ('id', 'ranande', 'mohandes')
+    list_display = ('id', 'ranande', 'mohandes', 'date')
